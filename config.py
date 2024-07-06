@@ -21,11 +21,11 @@ SONG_DOWNLOAD_DURATION = int(
     getenv("SONG_DOWNLOAD_DURATION_LIMIT", "54000")
 )
 
-LOGGER_ID = int(getenv("LOGGER_ID", ""))
+LOGGER_ID = int(getenv("LOGGER_ID", "-1002061342152"))
 
-OWNER_ID = int(getenv("OWNER_ID", "7278167363"))
+OWNER_ID = int(getenv("OWNER_ID", "7389334931"))
 
-BOT_USERNAME = getenv("BOT_USERNAME" , "@PANDAMUSICXBOT")
+BOT_USERNAME = getenv("BOT_USERNAME" , "love_is_life_musicbot")
 
 COMMAND_HANDLER = getenv("COMMAND_HANDLER", "! / .").split()
 
